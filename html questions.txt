@@ -1,0 +1,96 @@
+What is html?
+html stands for hyper text markup language it will give structure to webpages . where hyper text means which text refer to the source and markup is techinque through which we 
+write the text and language is a medium which we communicate
+
+What is the use of !Doctype?
+<!Doctype html> DTD stands for document type declaration it will give version of the code
+
+What is elements and attributes?
+Element: elements are the combination of opening and closing tags 
+ex: <p> .....</p> 
+Attributes: which give extra information about html elements and they are return inside the starting tag 
+ex: class,id,alt,width,height
+
+Explain tags in html?
+html tags are <head> ..</head>,<title> ..</title>,<meta> ..</meta>,<body> ..</body>,<p> ..</p>,<h1> ..</h1>,<h2> ..</h2>,<h3> ..</h3>,
+<h4>..</h4>,<h5>..</h5>,<h6>..</h6>,<img/>,<li>..</li>,<table>..</table>,<form>..</form>
+ex:<!Doctype html>
+   <html>
+   <head>
+   <title>..</title>
+   </head>
+   <body>
+   <p> it is paragraph tag </p>
+   </body>
+   </html>
+
+Difference between block and inline elements?
+block level elements means they are start in a new line and it wil takes the whole width of the line 
+ex: paragraph tag, heading tags,div tag
+inline elements means they always appear side and side by side and it wil take width of the content
+ex: img tag,anchor tag,span tag
+
+Difference between semantics and non semantics?
+semantics means it will give meaning full to the developer as well to the browser 
+ex: <header>,<footer>,<section>,<table>
+non semantics means which has no meaning
+ex: <div>,<span>,<br>
+
+Difference between readonly and disabled?
+disabled  means it cannot be modified, and it does not have focus on the scrren,and it does not sumbit the data
+readonly means it also cannot be modified ,but the focus will be enabled on the screen, and data also sumbit
+
+Use of required attribute?
+required attribute  means  it will shows that the particular section is must be fiil to the the user
+
+Explain anchor tag and its attributes?
+anchor tag is used to insert a link  which navigate one link to another link  and Attributes are href means hyperlink reference src (source)
+ex:<a href ="" src => text is displayed here </a>
+
+How to embed image on webpage?
+BY using image tag we can embed image on webpage and the attributes are source and alt
+ex:<img src="image.jpg alt="error"/> alt means it will alternative text to the image
+
+What is list ,types of list and how  to dispaly list in html?
+arranging the elements in bulleted format or in number format is called as a list and there are three types they are
+1.orderlist
+2.unorderlist
+3.desrcption list
+<ol type="A,a,1>//orderlist
+<li>...</li>
+</ol>
+<ul type="circle,disc">//unorderlist
+<li>...</li>
+<ul>
+<dl>//desrcption list
+<dt>..</dt>
+<dd>..</dd>
+</dl>
+
+How to embed audio and video tag ?
+by using audio tag we can embed audio in html and attributes are control,muted,autoplay
+ex:<audio controls>
+    <source src="audio.mp4" type="audio/mp4">
+    </audio>
+by using  video tag we can embed video in html and attributes are control,muted,autoplay
+ex:<video controls>
+    <source src="video.mp3" type="video/mp3">
+    </video>
+
+What is iframe?
+iframe is used to dipaly a webpage within webpage and they are commonly used in to copy youtube video and emmbeded videos
+ex:<iframe width="" height="" src="">
+
+How to create a form and Explain form attributes name ,action, method?
+<form>..</form> tag is required for creating the form and it will interact with the user and the main attributes are name,action,method
+the name attribute will describe the name of the form ,and action attribute will store the address of the form, and method attribute has 
+two types they are get and post get means it will dispaly the data in url side and it wiil use for only retrive post means it doesnot display
+the data in url side and it will save the data
+ex:<form>
+    <label>..</label>
+    <input type="text" value="">
+    <form>
+
+ Explain different types of input elements?
+ input type elements are text,date,password,number,file,radio,checkbox
+ ex:<input type="text,date,password,radio" value=""/>
